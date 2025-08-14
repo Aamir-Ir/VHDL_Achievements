@@ -1,24 +1,3 @@
---------------------------------------------------------------------------------
--- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---------------------------------------------------------------------------------
---   ____  ____ 
---  /   /\/   / 
--- /___/  \  /    Vendor: Xilinx 
--- \   \   \/     Version : 14.7
---  \   \         Application : sch2hdl
---  /   /         Filename : TripGenie.vhf
--- /___/   /\     Timestamp : 10/06/2021 18:35:21
--- \   \  /  \ 
---  \___\/\___\ 
---
---Command: sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl /home/ise/ISE/ENG2410_F21_LAB2_Wed_16_Project/TripGenie.vhf -w /home/ise/ISE/ENG2410_F21_LAB2_Wed_16_Project/TripGenie.sch
---Design Name: TripGenie
---Device: spartan6
---Purpose:
---    This vhdl netlist is translated from an ECS schematic. It can be 
---    synthesized and simulated, but it should not be modified. 
---
-
 library ieee;
 use ieee.std_logic_1164.ALL;
 use ieee.numeric_std.ALL;
